@@ -31,8 +31,7 @@ for i in range(0, len(dados_faturamento)):
 
     if faturamento_do_dia > faturamento_medio:
         contador += 1
-
-
+        
 print(faturamento_medio)
 print(
     f'O menor valor de faturamento ocorrido em um dia do mês foi de R${faturamento_min:.2f}.')
