@@ -3,9 +3,7 @@ import statistics as sts
 
 data = open('dados.json')
 dados_faturamento = json.load(data)
-
-# print(dados_faturamento)
-# Códigos para a leitura do arquivo '.json'.
+# Funções para a leitura do arquivo '.json'.
 
 faturamento_mensal = []
 # Cria uma lista para armazenar todos os dias que houve faturamento.
